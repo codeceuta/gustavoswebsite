@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--head contains metadata about the website and link to css-->
+    <link href="styles.css" rel="stylesheet">
+    <!--title is a text appearing on tap at the top-->
+    <title> 
+        GUSTAVO CARDINAL
+    </title>
+</head>
+
+<body>
+<!--body is a whole website-->
+<header>
+    <!--header is main part at the top, name + navigation-->
+    
+    <br>
+    <nav>
+    <!--navigation part is to navigate page: links etc.-->
+        <ul id="navlist"> <!--lists of item in navigation-->
+            <li><a href="#bio" title="who am I">bio</a></li>
+            <li><a href="#videos" title="how do I play">videos</a></li>
+            <li><a href="#repertoire" title="what do I play">repertoire</a></li>
+            <li><a href="#tuition"title="learn to play">tuition</a></li>
+            <li><a href="#contact" title="how to contact me">contact</a></li>
+        
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <h1>GUSTAVO CARDINAL</h1>
+    <br>
+</header>
+<main>
+    <!--main is where all content happens-->
+    <section id="music">
+        <br>
+        <audio autoplay controls> <!--shows audio controls and plays authomatically music-->
+            <source src="files/GUSTAVO BRITOS ZUNÍN PRELUDIOS PARA PIANO.mp3" type="audio/mp3">
+          </audio>
+    </section>
+    <section id="bio">
+        <article class="biography">
+        <!--bio of Gustavo-->
+            <h2>ABOUT ME</h2>
+            <!-- <script> window.confirm('This is the best boyfriend ever!'); </script> -->
+            <figure>
+                <img id="gustavophoto" src="files/gc.png" alt="photo of a pianist" title="Gustavo Cardinal">
+                <figcaption>in 2020
+                
+                    <details> <!--creates a arrow to be pressed with extra info!-->
+                        <summary>PHOTO INFO</summary><!--is the text next to arrow-->
+                        <p>The photo was taken in Vietnam, May 2020.</p>  
+                    </details>
+                </figcaption>
+            </figure>
+            
+            <p>Gustavo Cardinal dolor sit amet, consectetuer adipiscing <a class="links" href="https://en.wikipedia.org/wiki/Uruguay" target="_blank" title="Wikipedia article about Uruguay">Uruguay</a>.<br>
+                Aenean commodo ligula eget dolor. Aenean massa.</p>
+                <figure>
+                    <img id="uruguayphoto" src="files/uruguay.png" alt="Map of South America" title="Uruguay on a map">
+                    <figcaption>Uruguay on the map</figcaption>
+                </figure>
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+            <ul class="a">
+                <li>fringilla</li>
+                <li>vulputate</li>
+                <li>pretium</li>
+            </ul>
+            <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. 
+                In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. 
+                Nullam dictum felis eu pede mollis pretium. Integer tincidunt. </p>
+            <p>Cras dapibus. </p>
+        </article>
+        
+    </section>
+    <section id="videos">
+        <h2>MY PERFORMANCE</h2>
+        <video controls width="550">
+            <source src="files/video.mp4">
+        </video>
+
+    </section>
+    <section id="repertoire">
+        <h2>REPERTOIRE</h2>
+        <ul>
+            
+            <h3>Franz Schubert</h3>
+            <li>Piano Sonata in D Major, D.850 [38']</li>
+
+            <h3>Robert Schumann </h3>
+            <li>Fantazja C-dur op. 17 [33']</li>
+            
+            <h3>Robert Schumann </h3>
+            <li>Kinderszenen, Op. 15 </li>
+        </ul>
+       
+    </section>
+    <section id="tuition">
+        <h2>TUITION</h2>
+        <table>
+            <tr><!--first row-->
+                <th scope="col">time</th>
+                <th scope="col">price</th>
+            </tr>
+            <tr><!--second row-->
+                <td>30 min<sup>*</sup></td>
+                <td>25$</td>
+            </tr>
+            <tr><!--third row-->
+                <td>45 min</td>
+                <td>35$</td>
+            </tr>
+            <tr><!--fourth row-->
+                <td>1 hour</td>
+                <td>45$</td>
+            </tr>
+        </table>
+        <p id="asterisk"><sup>*</sup>Not available for every student.</p>
+    </section>
+    <section id="contact">
+        <h2>CONTACT</h2>
+        
+        <button> <b>e-mail me</b>
+            <a href="mailto: gecard@gmail.com" EMAIL ME></a>
+        </button>
+        <button> <b>call me</b>
+            <a href="mailto: gecard@gmail.com" Whats App></a>
+        </button>
+        <br>
+        <br>
+        <form action="/other.html" method="POST">
+            <input id="writetext" type="text" name="textfield" value="leave a comment">
+            <input id="sendtext" type="submit" value="SEND">
+        </form>
+        <br>
+        <br>
+        
+    </section>
+</main>
+<footer>
+    <!--footer is at the bottom of a page-->
+    <br>
+    <h3 id="social">Find me on:</h3>
+</footer>
+</body>
+</html>

@@ -1,0 +1,155 @@
+body {
+    max-width: 900px;
+    height: 90%;
+    padding: 5px 10px;
+    margin: auto;
+    border: 1px dotted pink;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: 2px;
+    background-color:  #fffced;
+    opacity: 0,5;
+    
+}
+h1 {
+    font-size: 66px;
+    font-weight: 100;
+    color:  #7d6608;
+    
+    
+    /* position: relative; */
+    
+    /* top: 70px */
+    
+}
+h2{
+    font-size: 14px;
+    color:  #7d6608
+script {
+    font-size: 20px;
+}
+}
+header {
+    background-image: url('files/piano.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    /* background-size: 900px 300px; */
+    height: 250px;
+    width: 100%
+}
+nav {
+    width: 50%;
+    
+    /*justify-content: space-between;*/
+    /* float: right;
+    display: flex;
+    justify-content: space-between; */
+}
+main {
+    margin: 1px solid black;
+}
+
+ul li{
+    /* display: inline-block; makes list element to be in one line, specific size */
+
+}
+.a{
+    list-style-type: disc circle; /*why not working???*/
+}
+#navigation list{
+    text-decoration: none;
+}
+
+p, h3, li {
+    color: #283747 ;
+}
+p {
+    text-align: justify;/*makes ie even*/
+    line-height: 1.4;
+}
+table{
+    border: 2px dotted grey;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: justify;
+    color:#283747;
+    width: 60%;
+}
+th, td {
+    border-bottom: 1px dotted #ddd;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    
+    /* display: inline-block; */
+  }
+   
+a:hover {
+    color: green;
+    text-decoration: underline;
+  }
+.links {
+    color: orange;
+}
+button {
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: pink;
+    width: 120px;
+    height: 30px;
+
+  }
+   
+button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color:palevioletred;
+  }
+   
+  .replist {
+      /* display: inline-block; */
+  }
+  
+  figure {
+      /* display: inline-block; */
+      /* float: right; makes the pics to be always on the right side */
+  }
+  figcaption{
+      font-size: 12px;
+      color: black;
+  }
+  footer{
+
+      margin: auto;
+      background-color:  #7d6608;
+      width: 100%;
+      height: 150px;
+
+  }
+  #social{
+      text-align:justify;
+      margin: 30px;
+  }
+  #writetext {
+      width: 40%;
+      height: 100px;
+  }
+  #sendtext:hover {
+    color:black;
+    text-decoration: underline;
+    font-size: 16px;
+    background-color: pink;
+    padding: 5px;
+  }
+  #gustavophoto #uruguayphoto {
+      float: left;
+  }
